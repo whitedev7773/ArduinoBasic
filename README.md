@@ -13,7 +13,7 @@
 1. [아두이노란?](chapter-1-basic/01-What-is-Arduino.md)
 2. [개발 환경 설정하기 (Arduino IDE)](chapter-1-basic/02-Setup-Arduino-IDE.md)
 3. [아두이노 핀 구조와 기능](chapter-1-basic/03-Arduino-Pin-Structure.md)
-4. [브레드보드 구조와 기능](chapter-1-basic/04-Breadboard-Architecture)
+4. [브레드보드 구조와 기능](chapter-1-basic/04-Breadboard-Architecture.md)
 
 ---
 
