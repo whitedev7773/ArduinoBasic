@@ -11,11 +11,14 @@
 
 <img src="./src/cds_wiring.png" />
 
-| 센서 핀 | 아두이노 연결 핀 |
-|---|---|
-| VCC | `5V` |
-| GND | `GND` |
-| SIG | `A0` (아날로그 핀) |
+> [!TIP]
+> 시각적으로 연결 회로를 빠르게 판단하기 위해 **VCC는 빨간색**, **GND는 검정색** 케이블로 연결합니다.
+
+| 센서 핀 | 아두이노 연결 핀   |
+| ------- | ------------------ |
+| VCC     | `5V`               |
+| GND     | `GND`              |
+| SIG     | `A0` (아날로그 핀) |
 
 ```cpp
 int cdsPin = A0;
@@ -36,15 +39,17 @@ void loop() {
 <img src="./src/ultrasonic_wiring.png" />
 
 | 센서 핀 | 아두이노 연결 핀 |
-|---|---|
-| VCC | `5V` |
-| GND | `GND` |
-| Trig | `9` (디지털 핀) |
-| Echo | `10` (디지털 핀) |
+| ------- | ---------------- |
+| VCC     | `5V`             |
+| GND     | `GND`            |
+| Trig    | `2` (디지털 핀)  |
+| Echo    | `3` (디지털 핀)  |
 
 ```cpp
-int trigPin = 9;
-int echoPin = 10;
+// 변수 이름은 꼭 직관적이게 지어야합니다.
+// a, aa, aaa 처럼 지으면 나중에 구분하기 어렵겠죠?
+int trigPin = 2;
+int echoPin = 3;
 void setup() {
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
@@ -71,10 +76,10 @@ void loop() {
 <img src="./src/dht11_wiring.png" />
 
 | 센서 핀 | 아두이노 연결 핀 |
-|---|---|
-| VCC | `5V` |
-| GND | `GND` |
-| DATA | `2` (디지털 핀) |
+| ------- | ---------------- |
+| VCC     | `5V`             |
+| GND     | `GND`            |
+| DATA    | `2` (디지털 핀)  |
 
 ```cpp
 #include "DHT.h"
