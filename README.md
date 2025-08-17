@@ -33,9 +33,9 @@
 ### **Chapter 3. 기본 입출력 실습**
 
 1. [신호등 LED 제어](chapter-3-io/01-Traffic-LED.md)
-2. [3색 LED 제어](chapter-3-io/02-Output-LED.md)
-3. [조도센서](chapter-3-io/03-Illumination-Sensor.md)
-4. [초음파센서](chapter-3-io/04-Ultrasonic-Sensor.md)
+2. [RGB LED 제어](chapter-3-io/02-Output-LED.md)
+3. [조도센서 응용](chapter-3-io/03-Illumination-Sensor.md)
+4. [초음파센서 응용](chapter-3-io/04-Ultrasonic-Sensor.md)
 5. [온/습도센서](chapter-3-io/05-Temperature-Humidity-Sensor.md)
 
 ---

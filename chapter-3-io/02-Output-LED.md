@@ -1,9 +1,14 @@
 <img src="./header.png" />
 
-# 3색 LED 제어
+# RGB LED 제어
 
 > [!NOTE]
-> 이 문서는 **하나의 패키지에 3가지 색(빨강, 초록, 파랑)이 들어있는 3색 LED(RGB LED)**를 제어하는 실습에 대해 설명합니다.
+> 이 문서는 **3가지 색(빨강, 초록, 파랑)이 들어있는 3색 LED(RGB LED)**를 제어하는 실습에 대해 설명합니다.
+
+<img src="./src/rgb_led_types.png" />
+
+> [!WARNING]
+> 본인의 RGB LED가 어떤 형태인지 먼저 확인해야합니다.
 
 ## 1. 실습 목표
 
@@ -73,3 +78,6 @@ void setColor(int red, int green, int blue) {
   analogWrite(bluePin, blue);
 }
 ```
+
+> [!IMPORTANT]
+> 신호등 LED에서는 저항을 사용하지 않았는데 왜 RGB LED는 저항을 사용했을까요? 겉모습을 보며 이유를 생각해봐요.
