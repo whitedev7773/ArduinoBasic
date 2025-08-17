@@ -34,6 +34,8 @@
 
 > 각 음계에 해당하는 주파수 값을 배열에 저장하고, `tone()` 함수를 이용해 순서대로 재생합니다.
 
+<img src="./src/buzzer_frequency.png" />
+
 ```cpp
 int buzzerPin = 8;
 
